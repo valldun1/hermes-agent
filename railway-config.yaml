@@ -1,0 +1,15 @@
+model:
+  default: "nvidia/nemotron-3-super-120b-a12b:free"
+  provider: openrouter
+  context_length: 131072
+
+telegram:
+  enabled: true
+
+agent:
+  max_iterations: 90
+  tool_progress: all
+
+compression:
+  enabled: true
+  threshold: 0.50
