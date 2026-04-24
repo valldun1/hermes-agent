@@ -1,6 +1,6 @@
 model:
-  default: "nvidia/nemotron-3-super-120b-a12b:free"
-  provider: openrouter
+  default: "llama-3.3-70b-versatile"
+  provider: groq
   context_length: 131072
 
 telegram:
